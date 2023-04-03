@@ -1,0 +1,76 @@
+.medkit__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: var(--white-color);
+   
+
+    /* margin-top: 2rem; */
+
+}
+
+/* .medkit__navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3rem;
+    overflow: hidden;
+} */
+
+/* .medkit__navbar-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+} */
+
+.medkit__navbar-logo>img {
+    outline: 1px red solid;
+    /* margin-left: 4rem; */
+
+}
+
+.medkit__navbar-links>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.medkit__navbar-links>ul>li {
+    padding: 0 2rem;
+    list-style-type: none;
+
+}
+
+.medkit__navbar-heading>h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--primary-color);
+
+}
+
+.medkit__navbar-heading>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--primary-color);
+
+}
+
+.medkit__navbar-links>ul>li {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--secondary-color);
+}
+
+.medkit__navbar-links>ul>li:nth-child(1) {
+    color: var(--primary-color);
+}
