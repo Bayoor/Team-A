@@ -1,6 +1,6 @@
 import React from 'react'
-import line from "../assets/icons/line.svg"
-import "../styles/service.css"
+import line from "../../assets/icons/line.svg"
+import "../../styles/homepage/service.css"
 
 const Service = (props) => {
   return (

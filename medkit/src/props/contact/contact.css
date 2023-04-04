@@ -1,0 +1,28 @@
+.icons {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    place-content: center;
+    gap: 3.2rem;
+}
+
+.contact>div>.image {
+    margin-top: 6rem;
+}
+
+.contact>div>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    color: var(--secondary-color);
+}
+
+.contact>div>p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    color: var(--secondary-color);
+
+}
