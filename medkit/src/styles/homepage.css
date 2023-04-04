@@ -1,0 +1,186 @@
+.homepage__hero-section {
+    display: flex;
+    flex-direction: column;
+    background: #def1f9;
+    background-image: url(../assets/images/rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center 520px;
+    height: 900px;
+
+
+}
+
+.homepage__display-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage__hero-booking {
+    display: flex;
+    flex-direction: column;
+    /* /* justify-content: flex-start; */
+    /* align-items: flex-start;  */
+    place-items: center;
+    translate: 0rem 14rem;
+
+
+}
+
+.homepage__hero-booking>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    color: var(--white-color);
+}
+
+.homepage__hero-booking>span {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    color: #707173;
+    place-self: center;
+
+    translate: -6.5rem -1.6rem;
+}
+
+.homepage__hero-booking>button {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.344rem;
+    text-align: center;
+    color: var(--secondary-color);
+    background: var(--white-color);
+    border-radius: 20px;
+    border: none;
+    padding: 1rem 3rem;
+}
+
+.homepage__hero-booking>button:hover {
+    background: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.homepage__hero-image>img {
+    width: 572px;
+    height: 794.26px;
+    margin-left: 9.6rem;
+}
+
+
+.homepage__hero-content>h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    color: var(--secondary-color);
+
+    padding: 0 7rem;
+    text-align: start;
+    margin-top: -14.4rem;
+}
+
+.homepage__hero-content>p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    color: var(--secondary-color);
+
+    padding: 0 7rem;
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+.homepage__hero-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 7rem;
+}
+
+.homepage__hero-btn>button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--white-color);
+    background: #2F98C2;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.homepage__hero-btn>button:hover {
+    background-color: var(--secondary-color);
+}
+
+.homepage__consult-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #BEECFF;
+    margin-top: 4.8rem;
+}
+
+.homepage__consult-section>div {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 1.6rem;
+}
+
+.homepage__consult-section>div>p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.7rem;
+
+    color: var(--secondary-color);
+}
+
+.homepage__consult-section>div>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 4.9rem;
+    color: var(--secondary-color);
+    text-align: center;
+    padding-left: 2.3rem;
+}
+
+.homepage__consult-section>div>p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.7rem;
+
+    color: var(--secondary-color);
+    text-align: start;
+    padding-left: 4.8rem;
+}
+
+.homepage__consult-section>div>button {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    color: var(--secondary-color);
+    background: var(--white-color);
+    border-radius: 20px;
+    border: none;
+    padding: 1rem 2rem;
+    place-self: start;
+
+    margin-left: 4.8rem;
+
+
+
+}

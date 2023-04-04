@@ -24,17 +24,22 @@ a {
 } */
 
 body {
-  margin: 0 auto;
+  box-sizing: border-box;
+  margin:  auto;
   padding: 0;
   scroll-behavior: smooth;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   place-items: center;
   max-width: 1440px;
 
 }
+
+button,
+li {
+  cursor: pointer;
+}
+
+
 
 /* h1 {
   font-size: 3.2em;
