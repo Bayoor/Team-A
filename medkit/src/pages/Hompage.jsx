@@ -2,6 +2,11 @@ import React from "react";
 import "../styles/homepage.css";
 import doc from "../assets/images/doc2.png";
 import vaccine from "../assets/images/vaccine.png";
+import Services from "../props/services/Services";
+import Service from "../components/Service";
+import bus from "../assets/icons/bus.svg";
+import avatar from "../assets/icons/avatar.svg";
+import clock from "../assets/icons/clock.svg";
 
 const Hompage = () => {
   return (
@@ -58,6 +63,28 @@ const Hompage = () => {
           </p>
           <button>Register Now</button>
         </div>
+      </div>
+      <Service h2="MEDKIT SPECIALITIES" />
+      <div className="homepage__service-display_flex">
+        <Services
+          img={bus}
+          alt="bus"
+          h2="FASTEST AMBULANCE"
+          p="We provide you with experienced and highly professional doctors with the aim of providing exceptional care."
+        />
+        <Services
+        className="para"
+          img={avatar}
+          alt="bus"
+          h2="FASTEST AMBULANCE"
+          p="We provide you with experienced and highly professional doctors with the aim of providing exceptional care."
+        />
+        <Services
+          img={clock}
+          alt="bus"
+          h2="FASTEST AMBULANCE"
+          p="We are committed to providing healthcare services with the consideration of patients satisfaction. Our patients come first!"
+        />
       </div>
     </section>
   );

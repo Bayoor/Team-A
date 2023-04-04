@@ -1,0 +1,8 @@
+.service>h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    color: #1E3673;
+
+}
