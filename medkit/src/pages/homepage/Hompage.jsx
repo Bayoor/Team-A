@@ -18,14 +18,14 @@ const Hompage = () => {
   return (
     <section className="homepage__hero-section">
       <div className="homepage__display-flex">
-        <div className="homepage__hero-wrapper">
-          <div className="homepage__hero-image">
-            <img className="img" src={doc} alt="doc" />
-          </div>
+        <div className="homepage__hero-image">
+          <img src={doc} alt="doc" />
         </div>
 
         <div className="homepage__hero-content">
-          <h2>Get Access to Quick and Confidential Medical Services</h2>
+          <h2>
+            Get Access to Quick and Confidential Medical Services
+          </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Ante est ulmcorper nullam
             lacus tristique diam. Nulla sed rhoncus cras neque pulvinar. Pretium
@@ -43,7 +43,8 @@ const Hompage = () => {
           </div>
         </div>
       </div>
-      <div className="homepage__consult-section">
+
+      {/* <div className="homepage__consult-section">
         <div className="homepage__consult-image">
           <img src={vaccine} alt="covid vaccine" />
         </div>
@@ -131,7 +132,7 @@ const Hompage = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </section>
   );
 };

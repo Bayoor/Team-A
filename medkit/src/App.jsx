@@ -6,7 +6,7 @@ import Hompage from "./pages/homepage/Hompage";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hompage />
     </div>
   );
