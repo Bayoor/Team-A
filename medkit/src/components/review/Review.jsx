@@ -5,7 +5,7 @@ import line from "../../assets/icons/line.svg";
 const Review = () => {
   return (
     <>
-      <div className="review">
+      <div className="review align">
         <h2>Patients Say</h2>
       </div>
       <div className="review__para">

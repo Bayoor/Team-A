@@ -1,13 +1,19 @@
-import React from "react";
+import  React from "react";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
-import Hompage from "./pages/homepage/Hompage";
+// import Review from "./components/review/Review";
+import Homepage from "./pages/homepage/Homepage";
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      <Hompage />
+      <Navbar />
+       <Homepage />
+      {/* <Review /> */}
+      
+      
+      
     </div>
   );
 }

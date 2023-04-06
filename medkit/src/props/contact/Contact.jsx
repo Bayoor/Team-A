@@ -7,7 +7,7 @@ import Live_Chat from "../../assets/icons/LIve_Chat.svg"
 const Contact = (props) => {
   return (
     <>
-    <section className="contact">
+    <section className="contact align">
         <div>
             <img  className="image" src={props.img} alt={props.alt}/>
         </div>

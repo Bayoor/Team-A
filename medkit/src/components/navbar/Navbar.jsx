@@ -1,34 +1,33 @@
 import React from "react";
 import "../../styles/navbar/navbar.css";
+// import { Link } from "react-router-dom";
 import logo from "../../assets/icons/logo.svg";
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <nav className="medkit__navbar">
-      <div className="medkit__navbar-container">
-        <div className="medkit___navbar-logo">
-          <img src={logo} alt="logo" />
+    <nav className="navbar section__padding">
+      <div className="navbar_logo-container">
+        <div className="navbar__logo">
+          <img src={logo} alt="Logo" />
         </div>
-        <div className="medkit__navbar-heading">
+        <div className="navbar__text">
           <h1>MEDKIT.COM</h1>
           <p>Health is wealth</p>
         </div>
       </div>
 
-      <div className="medkit__navbar-links">
-        <ul>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>SERVICES</li>
-          <li>CONTACT</li>
-          <li>Log In</li>
-          <li>
-            <button>Sign Up</button>
-          </li>
-        </ul>
+      <ul className="navbar__links">
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SERVICE</li>
+        <li>CONTACT</li>
+      </ul>
+      <div className="navbar__auth">
+        <p>Log In</p>
+        <button>Sign Up</button>
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;

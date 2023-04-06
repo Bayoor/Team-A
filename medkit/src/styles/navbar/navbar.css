@@ -1,86 +1,95 @@
-.medkit__navbar {
+.navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--white-color);
+
 }
 
-.medkit__navbar-container {
+.navbar_logo-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 9.6rem;
-}
-
-.medkit__navbar-logo {
-    display: flex;
-}
-
-.medkit__navbar-links>ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    gap: 1rem;
     margin-left: 3.2rem;
 }
 
-.medkit__navbar-links>ul>li {
-    padding: 0 2.4rem;
-    list-style-type: none;
-
+.navbar__logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 1rem;
 }
 
-.medkit__navbar-heading>h1 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: var(--primary-color);
-
+.navbar__logo img {
+    width: 100%;
+    height: auto;
 }
 
-.medkit__navbar-heading>p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    color: var(--primary-color);
-
-}
-
-.medkit__navbar-links>ul>li {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    color: var(--secondary-color);
-}
-
-.medkit__navbar-links>ul>li:nth-child(1),
-.medkit__navbar-links>ul>li:nth-child(5) {
-    color: var(--primary-color);
-}
-
-.medkit__navbar-links>ul>li:nth-child(4){
- margin-right: 6.4rem;
- }
-.medkit__navbar-links>ul>li>button {
+.navbar__text {
     display: flex;
-    font-family: var(--font-family);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__text h1,
+.navbar__text p {
+    color: var(--primary-color);
+}
+
+.navbar__text h1 {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: var(--white-color);
-    background: linear-gradient(123.09deg, #2F98C2 -7.49%, #1E3673 78.8%);
+}
+
+.navbar__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__links li {
+    margin: 0 1.6rem;
+}
+
+.navbar__links li:first-child {
+    color: var(--primary-color);
+}
+
+.navbar__auth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.navbar__auth p {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: var(--primary-color);
+}
+
+.navbar__auth p,
+.navbar__auth button {
+    margin-left: 3.2rem;
+}
+
+.navbar__auth button {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    height: 50px;
+    width: 130px;
     border: none;
     border-radius: 15px;
-    padding: 11px 23px;
-   
+    padding: 1.1rem 2.3rem;
+    gap: 1rem;
+    background: linear-gradient(123.09deg, #2F98C2 -7.49%, #1E3673 78.8%);
+    color: var(--white-color);
+
 
 }
 
-.medkit__navbar-links>ul>li>button:hover {
-    background: linear-gradient(123.09deg, #1E3673  -7.49%, #2F98C2 78.8%);
+.navbar__auth button:hover {
+    background: linear-gradient(#1E3673 78.8%, 123.09deg, #2F98C2 -7.49%);
 }
